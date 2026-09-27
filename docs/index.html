@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102033">
+  <meta name="description" content="Prestação de contas do condomínio">
+  <title>Painel do Condomínio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-content">
+        <div><p class="eyebrow">PRESTAÇÃO DE CONTAS</p><h1 id="condoName">Condomínio</h1></div>
+        <label class="month-field"><span>Mês</span><select id="monthSelect" aria-label="Selecionar mês"></select></label>
+      </div>
+    </header>
+    <main>
+      <section class="view active" data-view="resumo">
+        <div class="period"><div><p class="eyebrow dark">RESUMO MENSAL</p><h2 id="periodTitle">—</h2></div><span class="updated" id="updatedAt"></span></div>
+        <article class="hero-card"><div><span>Valor arrecadado no mês</span><strong id="collected">R$ 0,00</strong><small id="collectionHint">—</small></div><div class="hero-icon">↗</div></article>
+        <div class="two-columns">
+          <article class="metric-card"><div class="icon">💧</div><span>Conta de água</span><strong id="water">—</strong></article>
+          <article class="metric-card"><div class="icon">💡</div><span>Conta de luz</span><strong id="electricity">—</strong></article>
+        </div>
+        <article class="summary-card">
+          <div class="summary-row"><span>Custos extras</span><strong id="extrasTotal">R$ 0,00</strong></div>
+          <div class="summary-row"><span>Total das despesas</span><strong id="expensesTotal">R$ 0,00</strong></div>
+          <div class="divider"></div>
+          <div class="summary-row result" id="resultRow"><span>Resultado do mês</span><strong id="result">R$ 0,00</strong></div>
+        </article>
+      </section>
+      <section class="view" data-view="despesas">
+        <div class="section-heading"><p class="eyebrow dark">TRANSPARÊNCIA</p><h2>Despesas do mês</h2><p>Valores consolidados da planilha de administração.</p></div>
+        <article class="list-card">
+          <div class="expense-item"><div><span class="expense-dot">💧</span><b>Água</b></div><strong id="expenseWater">—</strong></div>
+          <div class="expense-item"><div><span class="expense-dot">💡</span><b>Energia elétrica</b></div><strong id="expenseElectricity">—</strong></div>
+          <div id="extraExpenses"></div>
+          <div class="expense-total"><span>Total</span><strong id="expenseGrandTotal">R$ 0,00</strong></div>
+        </article>
+        <article class="info-card"><span>Sobre os dados</span><p>O painel exibe apenas valores agregados do condomínio. Informações pessoais e débitos individuais não são publicados.</p></article>
+      </section>
+      <section class="view" data-view="pagamento">
+        <div class="section-heading"><p class="eyebrow dark">PAGAMENTO</p><h2>Taxa condominial</h2><p id="paymentMessage">Use a chave Pix abaixo para efetuar o pagamento.</p></div>
+        <article class="payment-card">
+          <div class="payment-value"><span>Valor da taxa</span><strong id="feeValue">—</strong></div>
+          <div class="due-chip">Vencimento: dia <b id="dueDay">—</b></div>
+          <div class="pix-area" id="pixArea"><label>Chave Pix</label><div class="pix-box"><code id="pixKey">Não cadastrada</code><button id="copyPixButton" type="button">Copiar Pix</button></div><small id="pixHolder"></small><p class="feedback" id="copyFeedback"></p></div>
+          <div class="pix-empty" id="pixEmpty">A administração ainda não cadastrou a chave Pix.</div>
+        </article>
+        <article class="info-card"><span>Importante</span><p>Após realizar o pagamento, envie o comprovante pelo canal habitual definido pela administração do condomínio.</p></article>
+      </section>
+      <section class="error-state" id="errorState" hidden><h2>Não foi possível carregar os dados</h2><p id="errorMessage"></p></section>
+    </main>
+    <nav class="bottom-nav">
+      <button class="nav-button active" data-target="resumo"><span class="nav-icon">⌂</span><span>Início</span></button>
+      <button class="nav-button" data-target="despesas"><span class="nav-icon">≡</span><span>Despesas</span></button>
+      <button class="nav-button" data-target="pagamento"><span class="nav-icon">◇</span><span>Pagamento</span></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
