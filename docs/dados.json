@@ -1,23 +1,192 @@
 {
-  "condominio":"Condomínio Residencial",
-  "ano":2026,
-  "vencimento_dia":10,
-  "quantidade_unidades":7,
-  "pix":{"chave":"","favorecido":"","mensagem":"Use a chave Pix abaixo para efetuar o pagamento da taxa condominial."},
-  "meses":[
-    {"mes":1,"nome":"Janeiro","agua":1300.77,"luz":57.51,"extras":[],"total_extras":0,"arrecadado":1000,"total_despesas":1358.28,"resultado":-358.28,"taxa":200,"previsto":1400},
-    {"mes":2,"nome":"Fevereiro","agua":1406.01,"luz":0,"extras":[],"total_extras":0,"arrecadado":800,"total_despesas":1406.01,"resultado":-606.01,"taxa":200,"previsto":1400},
-    {"mes":3,"nome":"Março","agua":1506.01,"luz":53.77,"extras":[{"nome":"Limpeza","valor":180}],"total_extras":180,"arrecadado":1400,"total_despesas":1739.78,"resultado":-339.78,"taxa":200,"previsto":1400},
-    {"mes":4,"nome":"Abril","agua":1435.07,"luz":0,"extras":[{"nome":"Limpeza","valor":180}],"total_extras":180,"arrecadado":1000,"total_despesas":1615.07,"resultado":-615.07,"taxa":200,"previsto":1400},
-    {"mes":5,"nome":"Maio","agua":1406.01,"luz":56,"extras":[],"total_extras":0,"arrecadado":1200,"total_despesas":1462.01,"resultado":-262.01,"taxa":200,"previsto":1400},
-    {"mes":6,"nome":"Junho","agua":1506.01,"luz":0,"extras":[],"total_extras":0,"arrecadado":2400,"total_despesas":1506.01,"resultado":893.99,"taxa":200,"previsto":1400},
-    {"mes":7,"nome":"Julho","agua":1406.01,"luz":61.42,"extras":[{"nome":"Limpeza","valor":200}],"total_extras":200,"arrecadado":1850,"total_despesas":1667.43,"resultado":182.57,"taxa":250,"previsto":1750},
-    {"mes":8,"nome":"Agosto","agua":1506.01,"luz":null,"extras":[{"nome":"Limpeza","valor":200}],"total_extras":200,"arrecadado":1000,"total_despesas":1706.01,"resultado":-706.01,"taxa":250,"previsto":1750},
-    {"mes":9,"nome":"Setembro","agua":1384.51,"luz":59.11,"extras":[],"total_extras":0,"arrecadado":2400,"total_despesas":1443.62,"resultado":956.38,"taxa":250,"previsto":1750},
-    {"mes":10,"nome":"Outubro","agua":1442.62,"luz":null,"extras":[],"total_extras":0,"arrecadado":0,"total_despesas":1442.62,"resultado":-1442.62,"taxa":250,"previsto":1750},
-    {"mes":11,"nome":"Novembro","agua":null,"luz":null,"extras":[],"total_extras":0,"arrecadado":0,"total_despesas":0,"resultado":0,"taxa":250,"previsto":1750},
-    {"mes":12,"nome":"Dezembro","agua":null,"luz":null,"extras":[],"total_extras":0,"arrecadado":0,"total_despesas":0,"resultado":0,"taxa":250,"previsto":1750}
+  "condominio": "Condomínio Residencial",
+  "ano": 2026,
+  "vencimento_dia": 10,
+  "quantidade_unidades": 7,
+  "pix": {
+    "chave": "",
+    "favorecido": "Raphael Botelho",
+    "mensagem": "Solicite a chave Pix à administração para efetuar o pagamento da taxa condominial."
+  },
+  "meses": [
+    {
+      "mes": 1,
+      "nome": "Janeiro",
+      "agua": 1300.77,
+      "luz": 57.51,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 1000,
+      "total_despesas": 1358.28,
+      "resultado": -358.28,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 2,
+      "nome": "Fevereiro",
+      "agua": 1406.01,
+      "luz": 0,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 800,
+      "total_despesas": 1406.01,
+      "resultado": -606.01,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 3,
+      "nome": "Março",
+      "agua": 1506.01,
+      "luz": 53.77,
+      "extras": [
+        {
+          "nome": "Limpeza",
+          "valor": 180
+        }
+      ],
+      "total_extras": 180,
+      "arrecadado": 1400,
+      "total_despesas": 1739.78,
+      "resultado": -339.78,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 4,
+      "nome": "Abril",
+      "agua": 1435.07,
+      "luz": 0,
+      "extras": [
+        {
+          "nome": "Limpeza",
+          "valor": 180
+        }
+      ],
+      "total_extras": 180,
+      "arrecadado": 1000,
+      "total_despesas": 1615.07,
+      "resultado": -615.07,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 5,
+      "nome": "Maio",
+      "agua": 1406.01,
+      "luz": 56,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 1200,
+      "total_despesas": 1462.01,
+      "resultado": -262.01,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 6,
+      "nome": "Junho",
+      "agua": 1506.01,
+      "luz": 0,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 2400,
+      "total_despesas": 1506.01,
+      "resultado": 893.99,
+      "taxa": 200,
+      "previsto": 1400
+    },
+    {
+      "mes": 7,
+      "nome": "Julho",
+      "agua": 1406.01,
+      "luz": 61.42,
+      "extras": [
+        {
+          "nome": "Limpeza",
+          "valor": 200
+        }
+      ],
+      "total_extras": 200,
+      "arrecadado": 1850,
+      "total_despesas": 1667.43,
+      "resultado": 182.57,
+      "taxa": 250,
+      "previsto": 1750
+    },
+    {
+      "mes": 8,
+      "nome": "Agosto",
+      "agua": 1506.01,
+      "luz": null,
+      "extras": [
+        {
+          "nome": "Limpeza",
+          "valor": 200
+        }
+      ],
+      "total_extras": 200,
+      "arrecadado": 1000,
+      "total_despesas": 1706.01,
+      "resultado": -706.01,
+      "taxa": 250,
+      "previsto": 1750
+    },
+    {
+      "mes": 9,
+      "nome": "Setembro",
+      "agua": 1384.51,
+      "luz": 59.11,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 2400,
+      "total_despesas": 1443.62,
+      "resultado": 956.38,
+      "taxa": 250,
+      "previsto": 1750
+    },
+    {
+      "mes": 10,
+      "nome": "Outubro",
+      "agua": 1442.62,
+      "luz": null,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 0,
+      "total_despesas": 1442.62,
+      "resultado": -1442.62,
+      "taxa": 250,
+      "previsto": 1750
+    },
+    {
+      "mes": 11,
+      "nome": "Novembro",
+      "agua": null,
+      "luz": null,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 0,
+      "total_despesas": 0,
+      "resultado": 0,
+      "taxa": 250,
+      "previsto": 1750
+    },
+    {
+      "mes": 12,
+      "nome": "Dezembro",
+      "agua": null,
+      "luz": null,
+      "extras": [],
+      "total_extras": 0,
+      "arrecadado": 0,
+      "total_despesas": 0,
+      "resultado": 0,
+      "taxa": 250,
+      "previsto": 1750
+    }
   ],
-  "atualizado_em":"27/09/2026 22:17",
-  "privacidade":"Este arquivo contém apenas dados agregados do condomínio e não inclui nomes, telefones, e-mails ou débitos individuais."
+  "atualizado_em": "27/09/2026",
+  "privacidade": "Este arquivo contém apenas dados agregados do condomínio e não inclui nomes, telefones, e-mails, CPF ou débitos individuais.",
+  "fonte": "Aba Publicação Site da planilha de administração"
 }
