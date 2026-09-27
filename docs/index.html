@@ -41,6 +41,47 @@
         </article>
         <article class="info-card"><span>Sobre os dados</span><p>O painel exibe apenas valores agregados do condomínio. Informações pessoais e débitos individuais não são publicados.</p></article>
       </section>
+
+      <section class="view" data-view="saldo">
+        <div class="section-heading">
+          <p class="eyebrow dark">VISÃO ANUAL</p>
+          <h2>Saldo geral do ano</h2>
+          <p>Consolidado dos valores lançados no condomínio em <span id="annualYear">—</span>.</p>
+        </div>
+
+        <article class="annual-hero" id="annualBalanceCard">
+          <span>Saldo geral do ano</span>
+          <strong id="annualBalance">R$ 0,00</strong>
+          <small>Arrecadação menos despesas lançadas</small>
+        </article>
+
+        <div class="annual-kpis">
+          <article class="annual-kpi">
+            <span>Arrecadado no ano</span>
+            <strong id="annualCollected">R$ 0,00</strong>
+          </article>
+          <article class="annual-kpi">
+            <span>Despesas no ano</span>
+            <strong id="annualExpenses">R$ 0,00</strong>
+          </article>
+        </div>
+
+        <article class="annual-list-card">
+          <div class="annual-list-header">
+            <span>Mês</span>
+            <span>Arrecadado</span>
+            <span>Despesas</span>
+            <span>Saldo</span>
+          </div>
+          <div id="annualRows"></div>
+        </article>
+
+        <article class="info-card">
+          <span>Critério</span>
+          <p>O saldo anual considera os valores efetivamente lançados no painel para cada mês do ano. Meses sem movimentação são exibidos com valor zerado.</p>
+        </article>
+      </section>
+
       <section class="view" data-view="pagamento">
         <div class="section-heading"><p class="eyebrow dark">PAGAMENTO</p><h2>Taxa condominial</h2><p id="paymentMessage">Use a chave Pix abaixo para efetuar o pagamento.</p></div>
         <article class="payment-card">
@@ -56,6 +97,7 @@
     <nav class="bottom-nav">
       <button class="nav-button active" data-target="resumo"><span class="nav-icon">⌂</span><span>Início</span></button>
       <button class="nav-button" data-target="despesas"><span class="nav-icon">≡</span><span>Despesas</span></button>
+      <button class="nav-button" data-target="saldo"><span class="nav-icon">∑</span><span>Saldo anual</span></button>
       <button class="nav-button" data-target="pagamento"><span class="nav-icon">◇</span><span>Pagamento</span></button>
     </nav>
   </div>
