@@ -188,5 +188,10 @@
   ],
   "atualizado_em": "27/09/2026",
   "privacidade": "Este arquivo contém apenas dados agregados do condomínio e não inclui nomes, telefones, e-mails, CPF ou débitos individuais.",
-  "fonte": "Aba Publicação Site da planilha de administração"
+  "fonte": "Aba Publicação Site da planilha de administração",
+  "resumo_anual": {
+    "arrecadado": 13050,
+    "despesas": 15346.84,
+    "saldo": -2296.84
+  }
 }
