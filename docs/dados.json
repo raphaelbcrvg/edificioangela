@@ -4,9 +4,9 @@
   "vencimento_dia": 15,
   "quantidade_unidades": 7,
   "pix": {
-    "chave": "",
-    "favorecido": "Raphael Botelho",
-    "mensagem": "Solicite a chave Pix à administração para efetuar o pagamento da taxa condominial."
+    "chave": "954d5523-99c1-4277-b355-92c1d51a3180",
+    "favorecido": "RAPHAEL BOTELHO BEMVINDO",
+    "mensagem": "Copie a chave Pix aleatória abaixo e use-a no aplicativo do seu banco para pagar a taxa condominial."
   },
   "meses": [
     {
@@ -192,7 +192,7 @@
     }
   ],
   "atualizado_em": "27/09/2026",
-  "privacidade": "Este arquivo contém apenas dados agregados do condomínio e não inclui nomes, telefones, e-mails, CPF ou débitos individuais.",
+  "privacidade": "Este arquivo contém valores agregados do condomínio e os dados Pix autorizados do favorecido. Não inclui CPF, telefones, e-mails ou débitos individuais dos moradores.",
   "fonte": "Aba Publicação Site da planilha de administração",
   "resumo_anual": {
     "arrecadado": 13050,
