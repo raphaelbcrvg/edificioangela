@@ -138,11 +138,16 @@
       "nome": "Setembro",
       "agua": 1384.51,
       "luz": 59.11,
-      "extras": [],
-      "total_extras": 0,
+      "extras": [
+        {
+          "nome": "Desentupimento de esgoto",
+          "valor": 680
+        }
+      ],
+      "total_extras": 680,
       "arrecadado": 2400,
-      "total_despesas": 1443.62,
-      "resultado": 956.38,
+      "total_despesas": 2123.62,
+      "resultado": 276.38,
       "taxa": 250,
       "previsto": 1750
     },
@@ -191,7 +196,7 @@
   "fonte": "Aba Publicação Site da planilha de administração",
   "resumo_anual": {
     "arrecadado": 13050,
-    "despesas": 15346.84,
-    "saldo": -2296.84
+    "despesas": 16026.84,
+    "saldo": -2976.84
   }
 }
