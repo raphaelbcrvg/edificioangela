@@ -91,9 +91,9 @@
       "luz": 0,
       "extras": [],
       "total_extras": 0,
-      "arrecadado": 2400,
+      "arrecadado": 2600,
       "total_despesas": 1506.01,
-      "resultado": 893.99,
+      "resultado": 1093.99,
       "taxa": 200,
       "previsto": 1400
     },
@@ -109,9 +109,9 @@
         }
       ],
       "total_extras": 200,
-      "arrecadado": 1850,
+      "arrecadado": 1650,
       "total_despesas": 1667.43,
-      "resultado": 182.57,
+      "resultado": -17.43,
       "taxa": 250,
       "previsto": 1750
     },
@@ -145,9 +145,9 @@
         }
       ],
       "total_extras": 680,
-      "arrecadado": 2400,
+      "arrecadado": 2150,
       "total_despesas": 2123.62,
-      "resultado": 276.38,
+      "resultado": 26.38,
       "taxa": 250,
       "previsto": 1750
     },
@@ -158,22 +158,27 @@
       "luz": null,
       "extras": [],
       "total_extras": 0,
-      "arrecadado": 0,
+      "arrecadado": 1500,
       "total_despesas": 1442.62,
-      "resultado": -1442.62,
+      "resultado": 57.38,
       "taxa": 250,
       "previsto": 1750
     },
     {
       "mes": 11,
       "nome": "Novembro",
-      "agua": null,
+      "agua": 1384.51,
       "luz": null,
-      "extras": [],
-      "total_extras": 0,
+      "extras": [
+        {
+          "nome": "Manutenção",
+          "valor": 1075
+        }
+      ],
+      "total_extras": 1075,
       "arrecadado": 0,
-      "total_despesas": 0,
-      "resultado": 0,
+      "total_despesas": 2459.51,
+      "resultado": -2459.51,
       "taxa": 250,
       "previsto": 1750
     },
@@ -182,21 +187,26 @@
       "nome": "Dezembro",
       "agua": null,
       "luz": null,
-      "extras": [],
-      "total_extras": 0,
+      "extras": [
+        {
+          "nome": "Manutenção",
+          "valor": 107.5
+        }
+      ],
+      "total_extras": 107.5,
       "arrecadado": 0,
-      "total_despesas": 0,
-      "resultado": 0,
+      "total_despesas": 107.5,
+      "resultado": -107.5,
       "taxa": 250,
       "previsto": 1750
     }
   ],
-  "atualizado_em": "27/09/2026",
+  "atualizado_em": "27/10/2026",
   "privacidade": "Este arquivo contém valores agregados do condomínio e os dados Pix autorizados do favorecido. Não inclui CPF, telefones, e-mails ou débitos individuais dos moradores.",
-  "fonte": "Aba Publicação Site da planilha de administração",
+  "fonte": "Planilha de administração: Taxas, Despesas Mensais e Lançamentos de 2026; inclui desentupimento de R$ 680,00 em setembro confirmado pela administração.",
   "resumo_anual": {
-    "arrecadado": 13050,
-    "despesas": 16026.84,
-    "saldo": -2976.84
+    "arrecadado": 14300,
+    "despesas": 18593.85,
+    "saldo": -4293.85
   }
 }
