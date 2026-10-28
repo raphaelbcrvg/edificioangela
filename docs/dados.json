@@ -171,7 +171,7 @@
       "luz": null,
       "extras": [
         {
-          "nome": "Manutenção — Troca do portão",
+          "nome": "Manutenção — Portão novo - entrada de 50%",
           "valor": 1075
         }
       ],
@@ -189,7 +189,7 @@
       "luz": null,
       "extras": [
         {
-          "nome": "Manutenção — Troca do portão",
+          "nome": "Manutenção — Portão novo - parcela 1/10",
           "valor": 107.5
         }
       ],
@@ -208,5 +208,223 @@
     "arrecadado": 14300,
     "despesas": 18593.85,
     "saldo": -4293.85
+  },
+  "projecao": {
+    "data_base": "27/10/2026",
+    "unidades": 7,
+    "taxa": 250,
+    "percentual_arrecadacao": 0.9285714285714286,
+    "saldo_inicial": -1726.8399999999997,
+    "categorias": [
+      {
+        "nome": "Água",
+        "valor": 1429.9029999999998
+      },
+      {
+        "nome": "Energia elétrica",
+        "valor": 28.781
+      },
+      {
+        "nome": "Limpeza",
+        "valor": 76
+      }
+    ],
+    "meses": [
+      {
+        "ano": 2026,
+        "mes": 11,
+        "receita": 1625,
+        "base": 1489.291,
+        "programadas": [
+          {
+            "nome": "Portão novo - entrada de 50%",
+            "valor": 1075
+          }
+        ],
+        "despesas": 2564.291,
+        "resultado": -939.2910000000002,
+        "saldo": -2666.131
+      },
+      {
+        "ano": 2026,
+        "mes": 12,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 1/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2683.3149999999996
+      },
+      {
+        "ano": 2027,
+        "mes": 1,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 2/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2700.4989999999993
+      },
+      {
+        "ano": 2027,
+        "mes": 2,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 3/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2717.682999999999
+      },
+      {
+        "ano": 2027,
+        "mes": 3,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 4/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2734.866999999999
+      },
+      {
+        "ano": 2027,
+        "mes": 4,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 5/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2752.0509999999986
+      },
+      {
+        "ano": 2027,
+        "mes": 5,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 6/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2769.2349999999983
+      },
+      {
+        "ano": 2027,
+        "mes": 6,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 7/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2786.418999999998
+      },
+      {
+        "ano": 2027,
+        "mes": 7,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 8/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2803.602999999998
+      },
+      {
+        "ano": 2027,
+        "mes": 8,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 9/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2820.7869999999975
+      },
+      {
+        "ano": 2027,
+        "mes": 9,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [
+          {
+            "nome": "Portão novo - parcela 10/10",
+            "valor": 107.5
+          }
+        ],
+        "despesas": 1642.1839999999997,
+        "resultado": -17.18399999999974,
+        "saldo": -2837.9709999999973
+      },
+      {
+        "ano": 2027,
+        "mes": 10,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [],
+        "despesas": 1534.6839999999997,
+        "resultado": 90.31600000000026,
+        "saldo": -2747.654999999997
+      },
+      {
+        "ano": 2027,
+        "mes": 11,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [],
+        "despesas": 1534.6839999999997,
+        "resultado": 90.31600000000026,
+        "saldo": -2657.3389999999968
+      },
+      {
+        "ano": 2027,
+        "mes": 12,
+        "receita": 1625,
+        "base": 1534.6839999999997,
+        "programadas": [],
+        "despesas": 1534.6839999999997,
+        "resultado": 90.31600000000026,
+        "saldo": -2567.0229999999965
+      }
+    ]
   }
 }
