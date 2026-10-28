@@ -52,9 +52,10 @@
         <article class="annual-hero" id="annualBalanceCard">
           <span>Saldo geral do ano</span>
           <strong id="annualBalance">R$ 0,00</strong>
-          <small>Arrecadação menos despesas lançadas</small>
+          <small>Saldo inicial + arrecadação − despesas lançadas</small>
         </article>
 
+        <article class="info-card"><span>Saldo inicial do caixa</span><p id="annualOpening">—</p></article>
         <div class="annual-kpis">
           <article class="annual-kpi">
             <span>Arrecadado no ano</span>
@@ -78,7 +79,7 @@
 
         <article class="info-card">
           <span>Critério</span>
-          <p>O saldo anual considera os valores efetivamente lançados no painel para cada mês do ano. Meses sem movimentação são exibidos com valor zerado.</p>
+          <p>O saldo anual inclui o saldo inicial e todos os valores lançados em 2026, inclusive despesas programadas para meses futuros. O saldo de cada mês corresponde à arrecadação menos as despesas daquele mês.</p>
         </article>
       </section>
 
@@ -87,10 +88,10 @@
         <div class="section-heading"><p class="eyebrow dark">PLANEJAMENTO · ESTIMATIVAS</p><h2>Projeção dos próximos meses</h2><p>Novembro de 2026 a dezembro de 2027 · base em 27/10/2026. Valores estimados, sujeitos à arrecadação e às despesas efetivas.</p></div>
         <article class="annual-hero negative"><span>Saldo projetado em dezembro de 2027</span><strong id="forecastClosing">—</strong><small>Saldo de partida + resultados mensais estimados</small></article>
         <div class="annual-kpis"><article class="annual-kpi"><span>Saldo de partida até outubro/2026</span><strong id="forecastOpening">—</strong></article><article class="annual-kpi"><span>Arrecadação mensal estimada</span><strong id="forecastIncome">—</strong></article></div>
-        <article class="info-card"><span>Como calculamos</span><p id="forecastAssumptions"></p><p>As despesas recorrentes seguem as médias e estimativas da planilha. Novembro utiliza a água já lançada; as parcelas do portão entram uma única vez em cada mês. Não há reajuste de taxa ou inflação adicional presumidos.</p><p>O saldo de partida considera apenas os lançamentos até outubro, incluindo o desentupimento de R$ 680,00. As despesas futuras já cadastradas entram nos respectivos meses, sem duplicação. Contas ainda não lançadas até outubro podem alterar esse saldo.</p></article>
+        <article class="info-card"><span>Como calculamos</span><p id="forecastAssumptions"></p><p>As despesas recorrentes seguem as médias e estimativas da planilha. Novembro utiliza a água já lançada; as parcelas do portão entram uma única vez em cada mês. Não há reajuste de taxa ou inflação adicional presumidos.</p><p>O saldo de partida inclui o saldo inicial de R$ 850,00 e os lançamentos até outubro, incluindo o desentupimento de R$ 680,00. As despesas futuras já cadastradas entram nos respectivos meses, sem duplicação. Contas ainda não lançadas até outubro podem alterar esse saldo.</p></article>
         <h3>Despesas recorrentes de referência</h3><div id="forecastCategories" class="list-card"></div>
         <h3>Previsão mês a mês</h3><div id="forecastRows" class="forecast-grid"></div>
-        <article class="info-card"><span>Sobre a projeção</span><p>Fonte: abas Despesas Mensais, Lançamentos e Planejamento 2027. A arrecadação estimada corresponde a 92,86% da cobrança prevista até outubro (R$ 14.300,00 / R$ 15.400,00). Médias mantêm a precisão da planilha; valores exibidos são arredondados para centavos.</p><p>Esta aba não altera os lançamentos do saldo anual e não representa dinheiro já recebido ou pagamentos confirmados.</p></article>
+        <article class="info-card"><span>Sobre a projeção</span><p id="forecastBasis"></p><p>Esta aba não altera os lançamentos do saldo anual e não representa dinheiro já recebido ou pagamentos confirmados.</p></article>
       </section>
 
       <section class="view" data-view="pagamento">
@@ -113,6 +114,6 @@
       <button class="nav-button" data-target="pagamento"><span class="nav-icon">◇</span><span>Pagamento</span></button>
     </nav>
   </div>
-  <script src="app.js?v=projecao1"></script>
+  <script src="app.js?v=atualizacao2"></script>
 </body>
 </html>
