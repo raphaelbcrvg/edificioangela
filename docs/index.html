@@ -99,7 +99,8 @@
         <article class="payment-card">
           <div class="payment-value"><span>Valor da taxa</span><strong id="feeValue">—</strong></div>
           <div class="due-chip">Vencimento: dia <b id="dueDay">—</b></div>
-          <div class="pix-area" id="pixArea"><label>Chave Pix</label><div class="pix-box"><code id="pixKey">Não cadastrada</code><button id="copyPixButton" type="button">Copiar Pix</button></div><small id="pixHolder"></small><p class="feedback" id="copyFeedback"></p></div>
+          <div class="pix-area" id="pixArea"><label>Chave Pix aleatória</label><div class="pix-box"><code id="pixKey">Não cadastrada</code><button id="copyPixButton" type="button">Copiar Pix</button></div><small id="pixHolder"></small><p class="feedback" id="copyFeedback" role="status"></p></div>
+          <div class="pix-area" id="pixEmailArea" hidden><label>Chave Pix por e-mail</label><div class="pix-box"><code id="pixEmailKey"></code><button id="copyPixEmailButton" type="button">Copiar Pix e-mail</button></div><p class="feedback" id="copyEmailFeedback" role="status"></p></div>
           <div class="pix-empty" id="pixEmpty">A administração ainda não cadastrou a chave Pix.</div>
         </article>
         <article class="info-card"><span>Importante</span><p>Após realizar o pagamento, envie o comprovante pelo canal habitual definido pela administração do condomínio.</p></article>
@@ -114,6 +115,6 @@
       <button class="nav-button" data-target="pagamento"><span class="nav-icon">◇</span><span>Pagamento</span></button>
     </nav>
   </div>
-  <script src="app.js?v=atualizacao2"></script>
+  <script src="app.js?v=pixemail1"></script>
 </body>
 </html>
