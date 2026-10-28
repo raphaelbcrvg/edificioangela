@@ -6,7 +6,8 @@
   "pix": {
     "chave": "954d5523-99c1-4277-b355-92c1d51a3180",
     "favorecido": "RAPHAEL BOTELHO BEMVINDO",
-    "mensagem": "Copie a chave Pix aleatória abaixo e use-a no aplicativo do seu banco para pagar a taxa condominial."
+    "mensagem": "Escolha uma das chaves Pix abaixo e copie para pagar a taxa condominial no aplicativo do seu banco.",
+    "email": "raphaelbot@gmail.com"
   },
   "meses": [
     {
@@ -202,7 +203,7 @@
     }
   ],
   "atualizado_em": "27/10/2026",
-  "privacidade": "Este arquivo contém valores agregados do condomínio e os dados Pix autorizados do favorecido. Não inclui CPF, telefones, e-mails ou débitos individuais dos moradores.",
+  "privacidade": "Este arquivo contém valores agregados do condomínio e os dados Pix autorizados do favorecido, incluindo sua chave de e-mail. Não inclui CPF, telefones ou débitos individuais dos moradores.",
   "fonte": "Planilha de administração: Taxas, Despesas Mensais e Lançamentos de 2026; inclui desentupimento de R$ 680,00 em setembro confirmado pela administração.",
   "resumo_anual": {
     "arrecadado": 14800,
