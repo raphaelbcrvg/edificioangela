@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102033">
   <meta name="description" content="Prestação de contas do condomínio">
   <title>Painel do Condomínio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=projecao1">
 </head>
 <body>
   <div class="app-shell">
@@ -82,6 +82,17 @@
         </article>
       </section>
 
+
+      <section class="view" data-view="projecao">
+        <div class="section-heading"><p class="eyebrow dark">PLANEJAMENTO · ESTIMATIVAS</p><h2>Projeção dos próximos meses</h2><p>Novembro de 2026 a dezembro de 2027 · base em 27/10/2026. Valores estimados, sujeitos à arrecadação e às despesas efetivas.</p></div>
+        <article class="annual-hero negative"><span>Saldo projetado em dezembro de 2027</span><strong id="forecastClosing">—</strong><small>Saldo de partida + resultados mensais estimados</small></article>
+        <div class="annual-kpis"><article class="annual-kpi"><span>Saldo de partida até outubro/2026</span><strong id="forecastOpening">—</strong></article><article class="annual-kpi"><span>Arrecadação mensal estimada</span><strong id="forecastIncome">—</strong></article></div>
+        <article class="info-card"><span>Como calculamos</span><p id="forecastAssumptions"></p><p>As despesas recorrentes seguem as médias e estimativas da planilha. Novembro utiliza a água já lançada; as parcelas do portão entram uma única vez em cada mês. Não há reajuste de taxa ou inflação adicional presumidos.</p><p>O saldo de partida considera apenas os lançamentos até outubro, incluindo o desentupimento de R$ 680,00. As despesas futuras já cadastradas entram nos respectivos meses, sem duplicação. Contas ainda não lançadas até outubro podem alterar esse saldo.</p></article>
+        <h3>Despesas recorrentes de referência</h3><div id="forecastCategories" class="list-card"></div>
+        <h3>Previsão mês a mês</h3><div id="forecastRows" class="forecast-grid"></div>
+        <article class="info-card"><span>Sobre a projeção</span><p>Fonte: abas Despesas Mensais, Lançamentos e Planejamento 2027. A arrecadação estimada corresponde a 92,86% da cobrança prevista até outubro (R$ 14.300,00 / R$ 15.400,00). Médias mantêm a precisão da planilha; valores exibidos são arredondados para centavos.</p><p>Esta aba não altera os lançamentos do saldo anual e não representa dinheiro já recebido ou pagamentos confirmados.</p></article>
+      </section>
+
       <section class="view" data-view="pagamento">
         <div class="section-heading"><p class="eyebrow dark">PAGAMENTO</p><h2>Taxa condominial</h2><p id="paymentMessage">Use a chave Pix abaixo para efetuar o pagamento.</p></div>
         <article class="payment-card">
@@ -98,9 +109,10 @@
       <button class="nav-button active" data-target="resumo"><span class="nav-icon">⌂</span><span>Início</span></button>
       <button class="nav-button" data-target="despesas"><span class="nav-icon">≡</span><span>Despesas</span></button>
       <button class="nav-button" data-target="saldo"><span class="nav-icon">∑</span><span>Saldo anual</span></button>
+      <button class="nav-button" data-target="projecao"><span class="nav-icon">↗</span><span>Projeção</span></button>
       <button class="nav-button" data-target="pagamento"><span class="nav-icon">◇</span><span>Pagamento</span></button>
     </nav>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=projecao1"></script>
 </body>
 </html>
