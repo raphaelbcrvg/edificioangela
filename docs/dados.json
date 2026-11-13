@@ -146,9 +146,9 @@
         }
       ],
       "total_extras": 680,
-      "arrecadado": 2400,
+      "arrecadado": 2250,
       "total_despesas": 2123.62,
-      "resultado": 276.38,
+      "resultado": 126.38,
       "taxa": 250,
       "previsto": 1750
     },
@@ -177,9 +177,9 @@
         }
       ],
       "total_extras": 1075,
-      "arrecadado": 0,
+      "arrecadado": 1000,
       "total_despesas": 2459.51,
-      "resultado": -2459.51,
+      "resultado": -1459.51,
       "taxa": 250,
       "previsto": 1750
     },
@@ -202,24 +202,24 @@
       "previsto": 1750
     }
   ],
-  "atualizado_em": "07/11/2026",
+  "atualizado_em": "13/11/2026",
   "privacidade": "Este arquivo contém valores agregados do condomínio e os dados Pix autorizados do favorecido, incluindo sua chave de e-mail. Não inclui CPF, telefones ou débitos individuais dos moradores.",
   "fonte": "Planilha de administração: Taxas, Despesas Mensais e Lançamentos de 2026; inclui desentupimento de R$ 680,00 em setembro confirmado pela administração.",
   "resumo_anual": {
-    "arrecadado": 15050,
+    "arrecadado": 15900,
     "despesas": 18593.85,
-    "saldo": -2693.85,
-    "resultado": -3543.85,
+    "saldo": -1843.85,
+    "resultado": -2693.85,
     "saldo_inicial": 850
   },
   "projecao": {
-    "data_base": "07/11/2026",
+    "data_base": "13/11/2026",
     "unidades": 7,
     "taxa": 250,
-    "percentual_arrecadacao": 0.9772727272727273,
-    "saldo_inicial": -2586.3499999999995,
-    "recebido_base": 15050,
-    "previsto_base": 15400,
+    "percentual_arrecadacao": 0.9271137026239067,
+    "saldo_inicial": -1736.3499999999997,
+    "recebido_base": 15900,
+    "previsto_base": 17150,
     "categorias": [
       {
         "nome": "Água",
@@ -238,7 +238,7 @@
       {
         "ano": 2026,
         "mes": 12,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -247,13 +247,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2504.654545454545
+        "resultado": -6.08283858998152,
+        "saldo": -1742.4328385899812
       },
       {
         "ano": 2027,
         "mes": 1,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -262,13 +262,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2422.9590909090903
+        "resultado": -6.08283858998152,
+        "saldo": -1748.5156771799627
       },
       {
         "ano": 2027,
         "mes": 2,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -277,13 +277,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2341.2636363636357
+        "resultado": -6.08283858998152,
+        "saldo": -1754.5985157699442
       },
       {
         "ano": 2027,
         "mes": 3,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -292,13 +292,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2259.568181818181
+        "resultado": -6.08283858998152,
+        "saldo": -1760.6813543599258
       },
       {
         "ano": 2027,
         "mes": 4,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -307,13 +307,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2177.8727272727265
+        "resultado": -6.08283858998152,
+        "saldo": -1766.7641929499073
       },
       {
         "ano": 2027,
         "mes": 5,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -322,13 +322,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2096.177272727272
+        "resultado": -6.08283858998152,
+        "saldo": -1772.8470315398888
       },
       {
         "ano": 2027,
         "mes": 6,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -337,13 +337,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -2014.4818181818173
+        "resultado": -6.08283858998152,
+        "saldo": -1778.9298701298703
       },
       {
         "ano": 2027,
         "mes": 7,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -352,13 +352,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -1932.7863636363627
+        "resultado": -6.08283858998152,
+        "saldo": -1785.0127087198518
       },
       {
         "ano": 2027,
         "mes": 8,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -367,13 +367,13 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -1851.090909090908
+        "resultado": -6.08283858998152,
+        "saldo": -1791.0955473098334
       },
       {
         "ano": 2027,
         "mes": 9,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [
           {
@@ -382,46 +382,46 @@
           }
         ],
         "despesas": 1628.5318181818182,
-        "resultado": 81.6954545454546,
-        "saldo": -1769.3954545454535
+        "resultado": -6.08283858998152,
+        "saldo": -1797.1783858998149
       },
       {
         "ano": 2027,
         "mes": 10,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [],
         "despesas": 1521.0318181818182,
-        "resultado": 189.1954545454546,
-        "saldo": -1580.199999999999
+        "resultado": 101.41716141001848,
+        "saldo": -1695.7612244897964
       },
       {
         "ano": 2027,
         "mes": 11,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [],
         "despesas": 1521.0318181818182,
-        "resultado": 189.1954545454546,
-        "saldo": -1391.0045454545443
+        "resultado": 101.41716141001848,
+        "saldo": -1594.344063079778
       },
       {
         "ano": 2027,
         "mes": 12,
-        "receita": 1710.2272727272727,
+        "receita": 1622.4489795918366,
         "base": 1521.0318181818182,
         "programadas": [],
         "despesas": 1521.0318181818182,
-        "resultado": 189.1954545454546,
-        "saldo": -1201.8090909090897
+        "resultado": 101.41716141001848,
+        "saldo": -1492.9269016697594
       }
     ]
   },
   "saldo_inicial": 850,
   "fundo_portao": {
     "meta": 2156,
-    "arrecadado": 458,
-    "falta": 1698,
+    "arrecadado": 951,
+    "falta": 1205,
     "cota": 308,
     "custo": 2150
   },
